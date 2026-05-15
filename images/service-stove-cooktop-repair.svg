@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+  <rect width="800" height="300" fill="#f0f4f1"/>
+  <rect x="250" y="80" width="260" height="180" rx="6" fill="none" stroke="#1a5632" stroke-width="3"/>
+  <circle cx="330" cy="150" r="35" fill="none" stroke="#1a5632" stroke-width="2.5"/>
+  <circle cx="430" cy="150" r="35" fill="none" stroke="#1a5632" stroke-width="2.5"/>
+  <circle cx="330" cy="220" r="25" fill="none" stroke="#1a5632" stroke-width="2"/>
+  <circle cx="430" cy="220" r="25" fill="none" stroke="#1a5632" stroke-width="2"/>
+  <!-- Flame on one burner -->
+  <path d="M320 135 Q325 120 330 135 Q335 120 340 135" fill="none" stroke="#e8491d" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Wrench -->
+  <path d="M550 140 L590 180" stroke="#e8491d" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="595" cy="185" r="10" fill="none" stroke="#e8491d" stroke-width="3"/>
+</svg>

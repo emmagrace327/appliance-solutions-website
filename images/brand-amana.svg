@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+  <rect width="800" height="300" fill="#f0f4f1"/>
+  <!-- Brand name large -->
+  <text x="400" y="100" font-family="Poppins,sans-serif" font-size="48" font-weight="700" fill="#1a5632" opacity="0.12" text-anchor="middle">Amana</text>
+  <!-- Appliance icons -->
+  <rect x="200" y="120" width="80" height="120" rx="4" fill="none" stroke="#1a5632" stroke-width="2" opacity="0.5"/>
+  <line x1="200" y1="170" x2="280" y2="170" stroke="#1a5632" stroke-width="1.5" opacity="0.5"/>
+  <rect x="310" y="140" width="80" height="100" rx="4" fill="none" stroke="#1a5632" stroke-width="2" opacity="0.5"/>
+  <circle cx="350" cy="200" r="25" fill="none" stroke="#1a5632" stroke-width="1.5" opacity="0.5"/>
+  <rect x="420" y="130" width="80" height="110" rx="4" fill="none" stroke="#1a5632" stroke-width="2" opacity="0.5"/>
+  <circle cx="460" cy="195" r="25" fill="none" stroke="#1a5632" stroke-width="1.5" opacity="0.5"/>
+  <rect x="530" y="120" width="80" height="120" rx="4" fill="none" stroke="#1a5632" stroke-width="2" opacity="0.5"/>
+  <!-- Wrench overlay -->
+  <path d="M600 250 L640 210" stroke="#e8491d" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  <circle cx="645" cy="205" r="8" fill="none" stroke="#e8491d" stroke-width="2.5" opacity="0.6"/>
+</svg>

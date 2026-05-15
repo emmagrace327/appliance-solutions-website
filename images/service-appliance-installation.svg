@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+  <rect width="800" height="300" fill="#f0f4f1"/>
+  <!-- New appliance in box -->
+  <rect x="280" y="50" width="140" height="200" rx="2" fill="none" stroke="#1a5632" stroke-width="3"/>
+  <line x1="350" y1="50" x2="350" y2="250" stroke="#1a5632" stroke-width="1.5" stroke-dasharray="8 6"/>
+  <line x1="280" y1="150" x2="420" y2="150" stroke="#1a5632" stroke-width="1.5" stroke-dasharray="8 6"/>
+  <text x="310" y="115" font-family="Inter,sans-serif" font-size="28" font-weight="700" fill="#1a5632" opacity="0.15">NEW</text>
+  <!-- Arrow pointing to spot -->
+  <path d="M460 150 L520 150" stroke="#e8491d" stroke-width="4" stroke-linecap="round"/>
+  <path d="M510 140 L525 150 L510 160" fill="none" stroke="#e8491d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Installation spot -->
+  <rect x="540" y="70" width="120" height="180" rx="4" fill="none" stroke="#1a5632" stroke-width="2" stroke-dasharray="10 8"/>
+  <!-- Connections -->
+  <circle cx="570" cy="260" r="6" fill="none" stroke="#1a5632" stroke-width="2"/>
+  <circle cx="600" cy="260" r="6" fill="none" stroke="#e8491d" stroke-width="2"/>
+  <circle cx="630" cy="260" r="6" fill="none" stroke="#1a5632" stroke-width="2"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+  <rect width="800" height="300" fill="#f0f4f1"/>
+  <rect x="300" y="40" width="160" height="220" rx="6" fill="none" stroke="#1a5632" stroke-width="3"/>
+  <!-- Ice cube grid -->
+  <rect x="320" y="60" width="40" height="40" rx="4" fill="#1a5632" opacity="0.1" stroke="#1a5632" stroke-width="1.5"/>
+  <rect x="370" y="60" width="40" height="40" rx="4" fill="#1a5632" opacity="0.1" stroke="#1a5632" stroke-width="1.5"/>
+  <rect x="320" y="110" width="40" height="40" rx="4" fill="#1a5632" opacity="0.15" stroke="#1a5632" stroke-width="1.5"/>
+  <rect x="370" y="110" width="40" height="40" rx="4" fill="#1a5632" opacity="0.15" stroke="#1a5632" stroke-width="1.5"/>
+  <rect x="320" y="160" width="40" height="40" rx="4" fill="#1a5632" opacity="0.2" stroke="#1a5632" stroke-width="1.5"/>
+  <rect x="370" y="160" width="40" height="40" rx="4" fill="#1a5632" opacity="0.2" stroke="#1a5632" stroke-width="1.5"/>
+  <!-- Ice cubes falling -->
+  <rect x="520" y="100" width="25" height="25" rx="4" fill="#1a5632" opacity="0.15" stroke="#1a5632" stroke-width="1.5" transform="rotate(15 532 112)"/>
+  <rect x="550" y="150" width="20" height="20" rx="3" fill="#1a5632" opacity="0.1" stroke="#1a5632" stroke-width="1.5" transform="rotate(-10 560 160)"/>
+</svg>

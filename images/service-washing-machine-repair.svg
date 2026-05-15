@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+  <rect width="800" height="300" fill="#f0f4f1"/>
+  <rect x="300" y="30" width="160" height="240" rx="6" fill="none" stroke="#1a5632" stroke-width="3"/>
+  <circle cx="380" cy="170" r="60" fill="none" stroke="#1a5632" stroke-width="3"/>
+  <circle cx="380" cy="170" r="30" fill="none" stroke="#1a5632" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <line x1="300" y1="80" x2="460" y2="80" stroke="#1a5632" stroke-width="2"/>
+  <circle cx="330" cy="55" r="8" fill="none" stroke="#1a5632" stroke-width="2"/>
+  <circle cx="355" cy="55" r="8" fill="none" stroke="#1a5632" stroke-width="2"/>
+  <!-- Water drops -->
+  <path d="M520 120 Q524 130 520 140" fill="none" stroke="#1a5632" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M540 140 Q544 150 540 160" fill="none" stroke="#1a5632" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M530 100 Q534 110 530 120" fill="none" stroke="#1a5632" stroke-width="2" stroke-linecap="round"/>
+  <!-- Wrench -->
+  <path d="M530 180 L570 220" stroke="#e8491d" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="576" cy="226" r="10" fill="none" stroke="#e8491d" stroke-width="3"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+  <rect width="800" height="300" fill="#f0f4f1"/>
+  <!-- Dryer -->
+  <rect x="200" y="60" width="140" height="200" rx="6" fill="none" stroke="#1a5632" stroke-width="3"/>
+  <circle cx="270" cy="170" r="45" fill="none" stroke="#1a5632" stroke-width="2.5"/>
+  <line x1="200" y1="100" x2="340" y2="100" stroke="#1a5632" stroke-width="2"/>
+  <!-- Vent duct -->
+  <path d="M340 180 L420 180 L420 100 L540 100 L540 60" fill="none" stroke="#1a5632" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Lint particles -->
+  <circle cx="380" cy="175" r="3" fill="#e8491d" opacity="0.4"/>
+  <circle cx="400" cy="168" r="2" fill="#e8491d" opacity="0.3"/>
+  <circle cx="440" cy="110" r="3" fill="#e8491d" opacity="0.4"/>
+  <circle cx="480" cy="95" r="2.5" fill="#e8491d" opacity="0.3"/>
+  <circle cx="520" cy="80" r="2" fill="#e8491d" opacity="0.4"/>
+  <!-- Brush -->
+  <line x1="560" y1="120" x2="560" y2="60" stroke="#e8491d" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="560" cy="60" r="15" fill="none" stroke="#e8491d" stroke-width="2"/>
+  <line x1="548" y1="55" x2="548" y2="65" stroke="#e8491d" stroke-width="1.5"/>
+  <line x1="554" y1="50" x2="554" y2="70" stroke="#e8491d" stroke-width="1.5"/>
+  <line x1="560" y1="48" x2="560" y2="72" stroke="#e8491d" stroke-width="1.5"/>
+  <line x1="566" y1="50" x2="566" y2="70" stroke="#e8491d" stroke-width="1.5"/>
+  <line x1="572" y1="55" x2="572" y2="65" stroke="#e8491d" stroke-width="1.5"/>
+</svg>

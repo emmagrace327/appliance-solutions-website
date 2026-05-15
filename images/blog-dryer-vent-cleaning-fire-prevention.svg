@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#f0f4f1"/>
+  <!-- Dryer -->
+  <rect x="150" y="80" width="140" height="240" rx="6" fill="none" stroke="#1a5632" stroke-width="3"/>
+  <circle cx="220" cy="220" r="55" fill="none" stroke="#1a5632" stroke-width="2.5"/>
+  <line x1="150" y1="130" x2="290" y2="130" stroke="#1a5632" stroke-width="2"/>
+  <!-- Vent duct with lint -->
+  <path d="M290 220 L380 220 L380 120 L520 120 L520 60" fill="none" stroke="#1a5632" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Lint buildup (danger area) -->
+  <rect x="370" y="110" width="20" height="50" rx="4" fill="#e8491d" opacity="0.2"/>
+  <rect x="370" y="160" width="20" height="60" rx="4" fill="#e8491d" opacity="0.15"/>
+  <circle cx="400" cy="140" r="8" fill="#e8491d" opacity="0.2"/>
+  <circle cx="450" cy="115" r="6" fill="#e8491d" opacity="0.15"/>
+  <circle cx="490" cy="108" r="8" fill="#e8491d" opacity="0.2"/>
+  <!-- Warning triangle -->
+  <path d="M580 100 L620 170 L540 170 Z" fill="none" stroke="#e8491d" stroke-width="3" stroke-linejoin="round"/>
+  <line x1="580" y1="125" x2="580" y2="150" stroke="#e8491d" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="580" cy="160" r="3" fill="#e8491d"/>
+  <!-- Fire icon -->
+  <path d="M580 200 Q590 185 585 175 Q595 190 600 175 Q610 195 600 215 Q595 225 580 225 Q565 225 560 215 Q550 195 565 175 Q560 190 570 190 Q575 185 580 200 Z" fill="#e8491d" opacity="0.4"/>
+</svg>

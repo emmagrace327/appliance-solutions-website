@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+  <rect width="800" height="300" fill="#f0f4f1"/>
+  <!-- Question marks -->
+  <text x="200" y="180" font-family="Poppins,sans-serif" font-size="120" font-weight="800" fill="#1a5632" opacity="0.06">?</text>
+  <text x="350" y="150" font-family="Poppins,sans-serif" font-size="80" font-weight="800" fill="#e8491d" opacity="0.08">?</text>
+  <text x="500" y="200" font-family="Poppins,sans-serif" font-size="100" font-weight="800" fill="#1a5632" opacity="0.06">?</text>
+  <!-- Chat bubbles -->
+  <rect x="250" y="60" width="200" height="60" rx="10" fill="none" stroke="#1a5632" stroke-width="2"/>
+  <line x1="275" y1="82" x2="420" y2="82" stroke="#1a5632" stroke-width="2" opacity="0.3"/>
+  <line x1="275" y1="100" x2="380" y2="100" stroke="#1a5632" stroke-width="2" opacity="0.3"/>
+  <rect x="350" y="140" width="200" height="60" rx="10" fill="none" stroke="#e8491d" stroke-width="2"/>
+  <line x1="375" y1="162" x2="520" y2="162" stroke="#e8491d" stroke-width="2" opacity="0.3"/>
+  <line x1="375" y1="180" x2="480" y2="180" stroke="#e8491d" stroke-width="2" opacity="0.3"/>
+  <rect x="280" y="220" width="200" height="50" rx="10" fill="none" stroke="#1a5632" stroke-width="2"/>
+  <line x1="305" y1="242" x2="450" y2="242" stroke="#1a5632" stroke-width="2" opacity="0.3"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+  <rect width="800" height="300" fill="#f0f4f1"/>
+  <rect x="300" y="30" width="160" height="240" rx="6" fill="none" stroke="#1a5632" stroke-width="3"/>
+  <circle cx="380" cy="170" r="60" fill="none" stroke="#1a5632" stroke-width="3"/>
+  <line x1="300" y1="80" x2="460" y2="80" stroke="#1a5632" stroke-width="2"/>
+  <rect x="400" y="45" width="40" height="20" rx="4" fill="none" stroke="#1a5632" stroke-width="2"/>
+  <!-- Heat waves -->
+  <path d="M355 145 Q365 155 355 165 Q345 175 355 185 Q365 195 355 205" fill="none" stroke="#e8491d" stroke-width="2" stroke-linecap="round"/>
+  <path d="M380 145 Q390 155 380 165 Q370 175 380 185 Q390 195 380 205" fill="none" stroke="#e8491d" stroke-width="2" stroke-linecap="round"/>
+  <path d="M405 145 Q415 155 405 165 Q395 175 405 185 Q415 195 405 205" fill="none" stroke="#e8491d" stroke-width="2" stroke-linecap="round"/>
+  <!-- Tools -->
+  <path d="M530 120 L560 90" stroke="#1a5632" stroke-width="4" stroke-linecap="round"/>
+  <path d="M520 140 L500 180" stroke="#e8491d" stroke-width="4" stroke-linecap="round"/>
+</svg>

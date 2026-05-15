@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+  <rect width="800" height="300" fill="#f0f4f1"/>
+  <rect x="300" y="30" width="160" height="240" rx="6" fill="none" stroke="#1a5632" stroke-width="3"/>
+  <line x1="300" y1="70" x2="460" y2="70" stroke="#1a5632" stroke-width="2"/>
+  <circle cx="380" cy="50" r="10" fill="none" stroke="#1a5632" stroke-width="2"/>
+  <rect x="320" y="85" width="120" height="30" rx="2" fill="none" stroke="#1a5632" stroke-width="1.5"/>
+  <rect x="320" y="125" width="120" height="30" rx="2" fill="none" stroke="#1a5632" stroke-width="1.5"/>
+  <rect x="320" y="165" width="120" height="30" rx="2" fill="none" stroke="#1a5632" stroke-width="1.5"/>
+  <rect x="320" y="200" width="120" height="50" rx="2" fill="none" stroke="#1a5632" stroke-width="1.5"/>
+  <!-- Spray pattern -->
+  <path d="M530 80 L520 120 M530 80 L540 120 M530 80 L530 125" stroke="#1a5632" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <circle cx="520" cy="125" r="3" fill="#1a5632" opacity="0.3"/>
+  <circle cx="540" cy="125" r="3" fill="#1a5632" opacity="0.3"/>
+  <circle cx="530" cy="130" r="3" fill="#1a5632" opacity="0.3"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+  <rect width="800" height="300" fill="#f0f4f1"/>
+  <!-- Grid of brand placeholders -->
+  <rect x="100" y="40" width="130" height="60" rx="6" fill="none" stroke="#1a5632" stroke-width="1.5" opacity="0.3"/>
+  <rect x="250" y="40" width="130" height="60" rx="6" fill="none" stroke="#1a5632" stroke-width="1.5" opacity="0.3"/>
+  <rect x="400" y="40" width="130" height="60" rx="6" fill="none" stroke="#1a5632" stroke-width="1.5" opacity="0.3"/>
+  <rect x="550" y="40" width="130" height="60" rx="6" fill="none" stroke="#1a5632" stroke-width="1.5" opacity="0.3"/>
+  <rect x="100" y="120" width="130" height="60" rx="6" fill="none" stroke="#1a5632" stroke-width="1.5" opacity="0.3"/>
+  <rect x="250" y="120" width="130" height="60" rx="6" fill="none" stroke="#1a5632" stroke-width="1.5" opacity="0.3"/>
+  <rect x="400" y="120" width="130" height="60" rx="6" fill="none" stroke="#1a5632" stroke-width="1.5" opacity="0.3"/>
+  <rect x="550" y="120" width="130" height="60" rx="6" fill="none" stroke="#1a5632" stroke-width="1.5" opacity="0.3"/>
+  <rect x="100" y="200" width="130" height="60" rx="6" fill="none" stroke="#1a5632" stroke-width="1.5" opacity="0.3"/>
+  <rect x="250" y="200" width="130" height="60" rx="6" fill="none" stroke="#1a5632" stroke-width="1.5" opacity="0.3"/>
+  <rect x="400" y="200" width="130" height="60" rx="6" fill="none" stroke="#1a5632" stroke-width="1.5" opacity="0.3"/>
+  <rect x="550" y="200" width="130" height="60" rx="6" fill="none" stroke="#1a5632" stroke-width="1.5" opacity="0.3"/>
+  <!-- Wrench overlay -->
+  <path d="M650 260 L680 230" stroke="#e8491d" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+  <circle cx="685" cy="225" r="8" fill="none" stroke="#e8491d" stroke-width="2.5" opacity="0.5"/>
+</svg>

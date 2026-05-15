@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#f0f4f1"/>
+  <rect x="250" y="50" width="280" height="300" rx="8" fill="none" stroke="#1a5632" stroke-width="2.5"/>
+  <line x1="250" y1="100" x2="530" y2="100" stroke="#1a5632" stroke-width="2"/>
+  <text x="390" y="82" font-family="Poppins,sans-serif" font-size="18" font-weight="700" fill="#1a5632" text-anchor="middle" opacity="0.5">CHECKLIST</text>
+  <g opacity="0.8">
+    <rect x="275" y="120" width="20" height="20" rx="3" fill="none" stroke="#1a5632" stroke-width="2"/>
+    <path d="M279 130 L283 134 L293 124" fill="none" stroke="#1a5632" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="310" y1="130" x2="500" y2="130" stroke="#1a5632" stroke-width="1.5" opacity="0.3"/>
+  </g>
+  <g opacity="0.8">
+    <rect x="275" y="160" width="20" height="20" rx="3" fill="none" stroke="#1a5632" stroke-width="2"/>
+    <path d="M279 170 L283 174 L293 164" fill="none" stroke="#1a5632" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="310" y1="170" x2="480" y2="170" stroke="#1a5632" stroke-width="1.5" opacity="0.3"/>
+  </g>
+  <g opacity="0.8">
+    <rect x="275" y="200" width="20" height="20" rx="3" fill="none" stroke="#1a5632" stroke-width="2"/>
+    <path d="M279 210 L283 214 L293 204" fill="none" stroke="#1a5632" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="310" y1="210" x2="490" y2="210" stroke="#1a5632" stroke-width="1.5" opacity="0.3"/>
+  </g>
+  <g opacity="0.6">
+    <rect x="275" y="240" width="20" height="20" rx="3" fill="none" stroke="#e8491d" stroke-width="2"/>
+    <line x1="310" y1="250" x2="470" y2="250" stroke="#1a5632" stroke-width="1.5" opacity="0.3"/>
+  </g>
+  <g opacity="0.6">
+    <rect x="275" y="280" width="20" height="20" rx="3" fill="none" stroke="#e8491d" stroke-width="2"/>
+    <line x1="310" y1="290" x2="460" y2="290" stroke="#1a5632" stroke-width="1.5" opacity="0.3"/>
+  </g>
+  <g opacity="0.5">
+    <rect x="275" y="320" width="20" height="20" rx="3" fill="none" stroke="#1a5632" stroke-width="1.5"/>
+    <line x1="310" y1="330" x2="450" y2="330" stroke="#1a5632" stroke-width="1.5" opacity="0.2"/>
+  </g>
+  <circle cx="620" cy="110" r="30" fill="#1a5632" opacity="0.06"/>
+  <text x="620" y="115" font-family="Inter,sans-serif" font-size="14" fill="#1a5632" text-anchor="middle" opacity="0.4">SPR</text>
+  <circle cx="620" cy="190" r="30" fill="#e8491d" opacity="0.06"/>
+  <text x="620" y="195" font-family="Inter,sans-serif" font-size="14" fill="#e8491d" text-anchor="middle" opacity="0.4">SUM</text>
+  <circle cx="620" cy="270" r="30" fill="#1a5632" opacity="0.06"/>
+  <text x="620" y="275" font-family="Inter,sans-serif" font-size="14" fill="#1a5632" text-anchor="middle" opacity="0.4">FALL</text>
+</svg>

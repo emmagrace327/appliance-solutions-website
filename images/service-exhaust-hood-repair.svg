@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+  <rect width="800" height="300" fill="#f0f4f1"/>
+  <!-- Hood shape -->
+  <path d="M280 160 L320 60 L440 60 L480 160 Z" fill="none" stroke="#1a5632" stroke-width="3" stroke-linejoin="round"/>
+  <rect x="280" y="160" width="200" height="30" rx="3" fill="none" stroke="#1a5632" stroke-width="3"/>
+  <!-- Vent lines -->
+  <line x1="300" y1="165" x2="300" y2="185" stroke="#1a5632" stroke-width="1.5"/>
+  <line x1="320" y1="165" x2="320" y2="185" stroke="#1a5632" stroke-width="1.5"/>
+  <line x1="340" y1="165" x2="340" y2="185" stroke="#1a5632" stroke-width="1.5"/>
+  <line x1="360" y1="165" x2="360" y2="185" stroke="#1a5632" stroke-width="1.5"/>
+  <line x1="380" y1="165" x2="380" y2="185" stroke="#1a5632" stroke-width="1.5"/>
+  <line x1="400" y1="165" x2="400" y2="185" stroke="#1a5632" stroke-width="1.5"/>
+  <line x1="420" y1="165" x2="420" y2="185" stroke="#1a5632" stroke-width="1.5"/>
+  <line x1="440" y1="165" x2="440" y2="185" stroke="#1a5632" stroke-width="1.5"/>
+  <line x1="460" y1="165" x2="460" y2="185" stroke="#1a5632" stroke-width="1.5"/>
+  <!-- Duct -->
+  <rect x="360" y="20" width="40" height="40" fill="none" stroke="#1a5632" stroke-width="2"/>
+  <!-- Smoke rising from stove -->
+  <path d="M350 230 Q355 210 350 200" fill="none" stroke="#1a5632" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
+  <path d="M380 240 Q385 215 380 200" fill="none" stroke="#1a5632" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
+  <path d="M410 235 Q415 210 410 200" fill="none" stroke="#1a5632" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
+</svg>

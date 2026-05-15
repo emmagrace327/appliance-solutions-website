@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+  <rect width="800" height="300" fill="#f0f4f1"/>
+  <!-- Team/building -->
+  <rect x="300" y="80" width="200" height="160" rx="4" fill="none" stroke="#1a5632" stroke-width="2.5"/>
+  <rect x="320" y="100" width="40" height="40" rx="2" fill="#1a5632" opacity="0.1"/>
+  <rect x="380" y="100" width="40" height="40" rx="2" fill="#1a5632" opacity="0.1"/>
+  <rect x="440" y="100" width="40" height="40" rx="2" fill="#1a5632" opacity="0.1"/>
+  <rect x="320" y="160" width="40" height="40" rx="2" fill="#1a5632" opacity="0.1"/>
+  <rect x="380" y="160" width="40" height="80" rx="2" fill="#1a5632" opacity="0.15"/>
+  <rect x="440" y="160" width="40" height="40" rx="2" fill="#1a5632" opacity="0.1"/>
+  <!-- Roof -->
+  <path d="M280 80 L400 30 L520 80" fill="none" stroke="#1a5632" stroke-width="2.5"/>
+  <!-- Service van -->
+  <rect x="560" y="180" width="80" height="50" rx="4" fill="none" stroke="#1a5632" stroke-width="2"/>
+  <path d="M640 195 L665 195 L675 210 L675 230 L640 230 Z" fill="none" stroke="#1a5632" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="585" cy="235" r="8" fill="none" stroke="#1a5632" stroke-width="2"/>
+  <circle cx="660" cy="235" r="8" fill="none" stroke="#1a5632" stroke-width="2"/>
+  <!-- People silhouettes -->
+  <circle cx="180" cy="140" r="15" fill="#1a5632" opacity="0.15"/>
+  <path d="M165 160 L163 230 L175 230 L178 195 L183 195 L185 230 L197 230 L195 160 Z" fill="#1a5632" opacity="0.15"/>
+  <circle cx="230" cy="145" r="12" fill="#1a5632" opacity="0.1"/>
+  <path d="M218 162 L216 225 L226 225 L228 190 L232 190 L234 225 L244 225 L242 162 Z" fill="#1a5632" opacity="0.1"/>
+</svg>

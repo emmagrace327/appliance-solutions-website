@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+  <rect width="800" height="300" fill="#f0f4f1"/>
+  <rect x="300" y="30" width="140" height="240" rx="6" fill="none" stroke="#1a5632" stroke-width="3"/>
+  <line x1="300" y1="120" x2="440" y2="120" stroke="#1a5632" stroke-width="3"/>
+  <line x1="400" y1="60" x2="400" y2="90" stroke="#1a5632" stroke-width="4" stroke-linecap="round"/>
+  <line x1="400" y1="150" x2="400" y2="200" stroke="#1a5632" stroke-width="4" stroke-linecap="round"/>
+  <!-- Snowflakes -->
+  <text x="340" y="80" font-size="20" fill="#1a5632" opacity="0.5">*</text>
+  <text x="370" y="100" font-size="16" fill="#1a5632" opacity="0.4">*</text>
+  <text x="350" y="170" font-size="18" fill="#1a5632" opacity="0.5">*</text>
+  <text x="380" y="200" font-size="14" fill="#1a5632" opacity="0.4">*</text>
+  <!-- Wrench -->
+  <path d="M500 100 L560 160" stroke="#e8491d" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="570" cy="170" r="12" fill="none" stroke="#e8491d" stroke-width="3"/>
+  <!-- Checkmark -->
+  <circle cx="560" cy="80" r="20" fill="#1a5632" opacity="0.1"/>
+  <path d="M550 80 L558 88 L575 68" fill="none" stroke="#1a5632" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
