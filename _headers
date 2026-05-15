@@ -1,0 +1,34 @@
+# Cloudflare Pages custom headers
+# https://developers.cloudflare.com/pages/configuration/headers/
+
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(self)
+  Content-Security-Policy: frame-ancestors 'self'
+
+# Cache static assets aggressively
+/css/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/js/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/images/*
+  Cache-Control: public, max-age=2592000
+
+# HTML pages - allow revalidation
+/*.html
+  Cache-Control: public, max-age=3600, must-revalidate
+
+/
+  Cache-Control: public, max-age=3600, must-revalidate
+
+# Sitemap and robots - moderate caching
+/sitemap.xml
+  Cache-Control: public, max-age=86400
+
+/robots.txt
+  Cache-Control: public, max-age=86400

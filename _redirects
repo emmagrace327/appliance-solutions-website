@@ -1,0 +1,17 @@
+# Cloudflare Pages redirects
+# https://developers.cloudflare.com/pages/configuration/redirects/
+
+# Hub page trailing slashes - serve index.html
+/services  /services/  301
+/service-areas  /service-areas/  301
+/brands  /brands/  301
+/blog  /blog/  301
+/error-codes  /error-codes/  301
+
+# Common misspellings and alternate URLs
+/contact  /  302
+/contact.html  /  302
+/pricing  /blog/appliance-repair-cost-guide-northern-virginia.html  301
+/pricing.html  /blog/appliance-repair-cost-guide-northern-virginia.html  301
+/emergency  /services/emergency-appliance-repair.html  301
+/24-7  /services/emergency-appliance-repair.html  301

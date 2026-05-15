@@ -1,0 +1,32 @@
+{
+  "name": "Appliance Solutions Inc",
+  "short_name": "Appliance Solutions",
+  "description": "24/7 appliance repair in Woodbridge VA and Northern Virginia. Refrigerator, washer, dryer, dishwasher, oven repair. 4.9 stars, 293+ reviews.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1a5632",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["business", "utilities"],
+  "lang": "en-US"
+}
