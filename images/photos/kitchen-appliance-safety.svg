@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="533" viewBox="0 0 800 533">
+  <rect fill="#fff5f0" width="800" height="533"/>
+  <path d="M400 60 L480 140 L480 280 L320 280 L320 140 Z" fill="#ffd700" stroke="#e8491d" stroke-width="3" stroke-linejoin="round"/>
+  <text x="400" y="200" font-family="Arial" font-size="60" fill="#e8491d" text-anchor="middle" font-weight="bold">!</text>
+  <text x="400" y="330" font-family="Arial" font-size="22" fill="#333" text-anchor="middle" font-weight="bold">Kitchen Appliance Safety</text>
+  <text x="400" y="365" font-family="Arial" font-size="14" fill="#666" text-anchor="middle">Gas leak detection | Electrical hazards | Fire prevention</text>
+  <rect x="100" y="400" width="180" height="80" rx="8" fill="#f0f4f0" stroke="#1a5632" stroke-width="2"/>
+  <text x="190" y="435" font-family="Arial" font-size="12" fill="#1a5632" text-anchor="middle" font-weight="bold">Gas Safety</text>
+  <text x="190" y="460" font-family="Arial" font-size="10" fill="#666" text-anchor="middle">Check connections</text>
+  <rect x="310" y="400" width="180" height="80" rx="8" fill="#f0f4f0" stroke="#1a5632" stroke-width="2"/>
+  <text x="400" y="435" font-family="Arial" font-size="12" fill="#1a5632" text-anchor="middle" font-weight="bold">Electrical Safety</text>
+  <text x="400" y="460" font-family="Arial" font-size="10" fill="#666" text-anchor="middle">Proper grounding</text>
+  <rect x="520" y="400" width="180" height="80" rx="8" fill="#f0f4f0" stroke="#1a5632" stroke-width="2"/>
+  <text x="610" y="435" font-family="Arial" font-size="12" fill="#1a5632" text-anchor="middle" font-weight="bold">Fire Prevention</text>
+  <text x="610" y="460" font-family="Arial" font-size="10" fill="#666" text-anchor="middle">Clean vents & filters</text>
+  <text x="400" y="510" font-family="Arial" font-size="14" fill="#1a5632" text-anchor="middle">Appliance Solutions Inc - Woodbridge VA</text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="533" viewBox="0 0 800 533">
+  <rect fill="#f0f4f0" width="800" height="533"/>
+  <rect x="50" y="80" width="200" height="300" rx="8" fill="#ddd" stroke="#bbb" stroke-width="2"/>
+  <rect x="70" y="100" width="160" height="120" rx="4" fill="#ccc"/>
+  <rect x="70" y="240" width="160" height="100" rx="4" fill="#ccc"/>
+  <text x="150" y="170" font-family="Arial" font-size="12" fill="#666" text-anchor="middle">Fridge</text>
+  <rect x="300" y="130" width="200" height="250" rx="8" fill="#ddd" stroke="#bbb" stroke-width="2"/>
+  <circle cx="400" cy="270" r="50" fill="#ccc" stroke="#bbb" stroke-width="2"/>
+  <circle cx="400" cy="270" r="20" fill="#bbb"/>
+  <text x="400" y="215" font-family="Arial" font-size="12" fill="#666" text-anchor="middle">Washer</text>
+  <rect x="550" y="80" width="200" height="300" rx="8" fill="#ddd" stroke="#bbb" stroke-width="2"/>
+  <rect x="570" y="100" width="160" height="60" rx="4" fill="#ccc"/>
+  <rect x="580" y="180" width="80" height="160" rx="4" fill="#ccc"/>
+  <rect x="670" y="180" width="60" height="160" rx="4" fill="#ccc"/>
+  <text x="650" y="135" font-family="Arial" font-size="12" fill="#666" text-anchor="middle">Oven</text>
+  <circle cx="150" y="60" r="20" fill="#1a5632"/>
+  <text x="150" y="66" font-family="Arial" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">1</text>
+  <circle cx="400" cy="110" r="20" fill="#1a5632"/>
+  <text x="400" y="116" font-family="Arial" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">2</text>
+  <circle cx="650" cy="60" r="20" fill="#1a5632"/>
+  <text x="650" y="66" font-family="Arial" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">3</text>
+  <text x="400" y="470" font-family="Arial" font-size="18" fill="#1a5632" text-anchor="middle" font-weight="bold">Appliance Maintenance Tips</text>
+  <text x="400" y="500" font-family="Arial" font-size="14" fill="#666" text-anchor="middle">Appliance Solutions Inc - Woodbridge VA</text>
+</svg>
