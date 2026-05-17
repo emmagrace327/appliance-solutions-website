@@ -981,3 +981,18 @@ p { margin-bottom: 1rem; }
 .content-image { margin: 25px 0; }
 .content-image img { border-radius: var(--radius); }
 .page-image img { border-radius: 0; }
+
+/* Problem-Solution Tables for AIO/GEO */
+.problem-solution { background: #f8f9fa; border-left: 4px solid #1a5632; padding: 24px 28px; margin: 24px 0 32px; border-radius: 0 8px 8px 0; }
+.problem-solution h2 { font-size: 1.25rem; color: #1a5632; margin: 0 0 12px; }
+.problem-solution > p { font-size: 1rem; line-height: 1.7; margin: 0 0 16px; }
+.problem-table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+.problem-table th { background: #1a5632; color: #fff; padding: 10px 14px; text-align: left; font-weight: 600; }
+.problem-table td { padding: 10px 14px; border-bottom: 1px solid #e0e0e0; }
+.problem-table tr:nth-child(even) td { background: #f0f4f0; }
+.problem-table tr:hover td { background: #e8f0e8; }
+@media (max-width: 600px) {
+  .problem-solution { padding: 16px 18px; }
+  .problem-table { font-size: 0.85rem; }
+  .problem-table th, .problem-table td { padding: 8px 10px; }
+}
