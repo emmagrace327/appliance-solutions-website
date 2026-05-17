@@ -996,3 +996,9 @@ p { margin-bottom: 1rem; }
   .problem-table { font-size: 0.85rem; }
   .problem-table th, .problem-table td { padding: 8px 10px; }
 }
+
+/* City Map Embed */
+.city-map { margin: 24px 0 32px; border-radius: 8px; overflow: hidden; border: 2px solid #e0e0e0; }
+.city-map iframe { width: 100%; height: 350px; border: 0; display: block; }
+.city-map-caption { background: #f8f9fa; padding: 10px 16px; font-size: 0.9rem; color: #555; text-align: center; }
+@media (max-width: 600px) { .city-map iframe { height: 250px; } }
