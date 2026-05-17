@@ -1017,3 +1017,99 @@ p { margin-bottom: 1rem; }
 .city-map iframe { width: 100%; height: 350px; border: 0; display: block; }
 .city-map-caption { background: #f8f9fa; padding: 10px 16px; font-size: 0.9rem; color: #555; text-align: center; }
 @media (max-width: 600px) { .city-map iframe { height: 250px; } }
+
+/* ===== PHONE POPUP CTA ===== */
+.popup-overlay {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,.6);
+  z-index: 10000;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn .3s ease;
+}
+.popup-overlay.active { display: flex; }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes slideUp { from { transform: translateY(40px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+.popup-box {
+  background: #fff;
+  border-radius: 16px;
+  padding: 40px 36px;
+  max-width: 420px;
+  width: 90%;
+  text-align: center;
+  position: relative;
+  animation: slideUp .4s ease;
+  box-shadow: 0 20px 60px rgba(0,0,0,.3);
+}
+.popup-close {
+  position: absolute;
+  top: 12px; right: 16px;
+  background: none;
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: #666;
+  line-height: 1;
+  padding: 4px;
+}
+.popup-close:hover { color: #333; }
+.popup-icon {
+  width: 64px; height: 64px;
+  background: var(--primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+.popup-icon svg { width: 32px; height: 32px; color: #fff; }
+.popup-box h2 {
+  font-size: 1.5rem;
+  color: var(--dark);
+  margin: 0 0 8px;
+  font-family: 'Poppins', sans-serif;
+}
+.popup-box .popup-subtitle {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 0 0 24px;
+  line-height: 1.5;
+}
+.popup-phone {
+  display: block;
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--primary);
+  text-decoration: none;
+  margin: 0 0 16px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: -0.5px;
+}
+.popup-phone:hover { color: var(--primary-dark); }
+.popup-btn {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  padding: 16px 40px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  transition: background .2s;
+}
+.popup-btn:hover { background: var(--accent-dark); }
+.popup-trust {
+  margin-top: 16px;
+  font-size: 0.82rem;
+  color: #888;
+}
+@media (max-width: 480px) {
+  .popup-box { padding: 28px 20px; }
+  .popup-phone { font-size: 1.6rem; }
+  .popup-btn { padding: 14px 24px; font-size: 1rem; }
+}

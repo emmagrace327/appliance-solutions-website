@@ -262,7 +262,7 @@
   <div class="top-bar">
     <div class="container">
       <span><svg class="icon icon-sm" aria-hidden="true"><use href="#icon-pin"/></svg> 3030 Ps Business Center Dr, Woodbridge, VA 22192</span>
-      <span><svg class="icon icon-sm" aria-hidden="true"><use href="#icon-clock"/></svg> Open 24/7 &mdash; Including Holidays</span>
+      <span><svg class="icon icon-sm" aria-hidden="true"><use href="#icon-clock"/></svg> Open 24/7 - Including Holidays</span>
       <div class="social-links">
         <a href="https://www.facebook.com/appliancesolutionsinc" aria-label="Facebook">FB</a>
         <a href="https://www.instagram.com/appliance.solutions.inc/" aria-label="Instagram">IG</a>
@@ -320,6 +320,13 @@
             <a href="/brands/ge-appliance-repair">GE</a>
             <a href="/brands/maytag-appliance-repair">Maytag</a>
             <a href="/brands/kenmore-appliance-repair">Kenmore</a>
+            <a href="/brands/frigidaire-appliance-repair">Frigidaire</a>
+            <a href="/brands/kitchenaid-appliance-repair">KitchenAid</a>
+            <a href="/brands/bosch-appliance-repair">Bosch</a>
+            <a href="/brands/thermador-appliance-repair">Thermador</a>
+            <a href="/brands/miele-appliance-repair">Miele</a>
+            <a href="/brands/electrolux-appliance-repair">Electrolux</a>
+            <a href="/brands/">View All 16 Brands</a>
           </div>
         </div>
         <a href="/blog/">Blog</a>
@@ -395,7 +402,7 @@
           <p>The repair involves:</p>
           <ol>
             <li>Removing the freezer back panel</li>
-            <li>Manually defrosting the evaporator coils (using a steamer or hair dryer &mdash; never a heat gun or open flame)</li>
+            <li>Manually defrosting the evaporator coils (using a steamer or hair dryer - never a heat gun or open flame)</li>
             <li>Testing and replacing the failed defrost component (heater, thermostat, or sensor)</li>
             <li>Reassembling and verifying proper defrost cycle operation</li>
           </ol>
@@ -425,10 +432,10 @@
             <li>Wait 24&ndash;48 hours for all ice to melt completely</li>
             <li>Plug it back in</li>
           </ol>
-          <p>This will restore cooling for 2&ndash;6 weeks until ice builds up again. It is a temporary fix only &mdash; the failed defrost component still needs replacing.</p>
+          <p>This will restore cooling for 2&ndash;6 weeks until ice builds up again. It is a temporary fix only - the failed defrost component still needs replacing.</p>
 
           <h2>Samsung Warranty Note</h2>
-          <p>Samsung extended the sealed system warranty on many French-door models to 5 years (some components up to 10 years for the compressor). Check your model number on Samsung's warranty lookup page or call us &mdash; we check warranty status on every Samsung service call and can process warranty claims directly.</p>
+          <p>Samsung extended the sealed system warranty on many French-door models to 5 years (some components up to 10 years for the compressor). Check your model number on Samsung's warranty lookup page or call us - we check warranty status on every Samsung service call and can process warranty claims directly.</p>
 
           <div class="inline-cta">
             <h3>Samsung Fridge Not Cooling?</h3>
@@ -507,7 +514,7 @@
             <a href="https://www.facebook.com/appliancesolutionsinc" target="_blank" rel="noopener" aria-label="Facebook">FB</a>
             <a href="https://www.instagram.com/appliance.solutions.inc/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
             <a href="https://www.tiktok.com/@appliance.solutio" target="_blank" rel="noopener" aria-label="TikTok">TK</a>
-            <a href="https://maps.app.goo.gl/qCizHTTdxdntJAdYA" target="_blank" rel="noopener" aria-label="Google Business">G</a>
+            <a href="https://maps.app.goo.gl/handCQ1bEb7Ys6D16" target="_blank" rel="noopener" aria-label="Google Business">G</a>
           </div>
         </div>
 
@@ -544,7 +551,8 @@
           <ul class="footer__contact">
             <li><svg class="icon icon-sm" aria-hidden="true"><use href="#icon-phone"/></svg> <a href="tel:+15717274482">(571) 727-4482</a></li>
             <li><svg class="icon icon-sm" aria-hidden="true"><use href="#icon-pin"/></svg> 3030 Ps Business Center Dr, Woodbridge, VA 22192</li>
-            <li><svg class="icon" aria-hidden="true"><use href="#icon-clock"/></svg> Open 24/7 &mdash; Every Day</li>
+            <li><svg class="icon" aria-hidden="true"><use href="#icon-clock"/></svg> Open 24/7 - Every Day</li>
+            <li><svg class="icon icon-sm" aria-hidden="true"><use href="#icon-pin"/></svg> <a href="https://maps.app.goo.gl/handCQ1bEb7Ys6D16" target="_blank" rel="noopener">Find Us on Google Maps</a></li>
           </ul>
           <h4 style="margin-top: 20px;">Quick Links</h4>
           <ul>
@@ -567,5 +575,59 @@
   </div>
 
   <script src="../js/main.js"></script>
+
+  <!-- Phone Call Popup CTA -->
+  <div class="popup-overlay" id="phonePopup">
+    <div class="popup-box">
+      <button class="popup-close" id="popupClose" aria-label="Close popup">X</button>
+      <div class="popup-icon">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M14 4L20 4L22 12L18 16Q22 28 32 30L34 26L42 28L42 36Q42 42 36 44Q12 42 6 14Q4 8 8 4Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <h2>Need Appliance Help?</h2>
+      <p class="popup-subtitle">Talk to a licensed technician now.<br>Same-day service available 24/7.</p>
+      <a href="tel:+15717274482" class="popup-phone">(571) 727-4482</a>
+      <a href="tel:+15717274482" class="popup-btn">Tap to Call Now</a>
+      <p class="popup-trust">Licensed &amp; Insured | 4.9 Stars | 293+ Reviews</p>
+    </div>
+  </div>
+
+  <script>
+  // Phone popup - shows after 15 seconds or 40% scroll, once per session
+  (function(){
+    var shown = sessionStorage.getItem('popupShown');
+    var popup = document.getElementById('phonePopup');
+    var closeBtn = document.getElementById('popupClose');
+    if(!popup || shown) return;
+    function showPopup(){
+      popup.classList.add('active');
+      sessionStorage.setItem('popupShown','1');
+    }
+    function hidePopup(){
+      popup.classList.remove('active');
+    }
+    // Show after 15 seconds
+    var timer = setTimeout(showPopup, 15000);
+    // Or show on 40% scroll
+    function onScroll(){
+      var scrollPct = window.scrollY / (document.body.scrollHeight - window.innerHeight);
+      if(scrollPct > 0.4){
+        clearTimeout(timer);
+        showPopup();
+        window.removeEventListener('scroll', onScroll);
+      }
+    }
+    window.addEventListener('scroll', onScroll);
+    // Close handlers
+    if(closeBtn) closeBtn.addEventListener('click', hidePopup);
+    popup.addEventListener('click', function(e){
+      if(e.target === popup) hidePopup();
+    });
+    document.addEventListener('keydown', function(e){
+      if(e.key === 'Escape') hidePopup();
+    });
+  })();
+  </script>
 </body>
 </html>
